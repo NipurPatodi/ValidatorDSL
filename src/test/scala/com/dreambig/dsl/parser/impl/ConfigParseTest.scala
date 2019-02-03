@@ -1,11 +1,10 @@
-package com.dreambig.dsl.validate.impl
+package com.dreambig.dsl.parser.impl
 
 import java.io.File
 
-import com.dreambig.dsl.parser.impl.DslParser
 import com.holdenkarau.spark.testing.SharedSparkContext
 import com.typesafe.config.ConfigFactory
-import org.apache.spark.sql.{Column, DataFrame, SparkSession}
+import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.scalatest.{BeforeAndAfter, FlatSpec}
 
 class ConfigParseTest extends FlatSpec with BeforeAndAfter with SharedSparkContext{

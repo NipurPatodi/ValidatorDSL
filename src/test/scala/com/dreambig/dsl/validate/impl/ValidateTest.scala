@@ -21,10 +21,15 @@ class ValidateTest  extends FlatSpec with BeforeAndAfter with SharedSparkContext
     assertResult(1)(res1.count())
     assertResult("4")(res1.select("id").collect.head(0))
 
-    val condition2 =  Validate field "cc" greaterThanField  "id"
+    val condition2 =  (Validate field "cc" greaterThanField  "id") and (Validate field "cc" greaterThanField  "id") or (Validate field "cc" greaterThanField  "id")
     val res2 =inputDf.filter(condition2)
-    assertResult(3)(res2.count())
+    assertResult(2)(res2.count())
     assertResult("2")(res2.select("id").collect.head(0))
+
+
+
+    val condition3 =  (Validate field "id" equalToValue "0") or (Validate field "cc" equalToValue   "900")
+    inputDf.filter(condition3).show()
 
   }
 
