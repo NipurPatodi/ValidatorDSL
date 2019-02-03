@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f573a09d-365f-4d24-98ba-ca68af06c01f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/validate/Operator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/validate/Validate.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/impl/DslParser.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Test.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/validate/impl/ConfigParseTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/impl/ColumnParser.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Car" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Car" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/parser/impl/ColumnParserTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/parser/impl/ColumnParserTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/validate/Operator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/validate/impl/Operator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/validate/Validate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/validate/impl/Validate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/parser/impl/ColumnParserTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/validate/impl/ValidateTest.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,37 +32,44 @@
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.42" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Car" value="146" />
-          <entry key="java" value="2" />
-          <entry key="scala" value="5135" />
-          <entry key="xml" value="74" />
+          <entry key="conf" value="7" />
+          <entry key="java" value="33" />
+          <entry key="scala" value="5945" />
+          <entry key="xml" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="HOCON" value="7" />
+          <entry key="JAVA" value="33" />
           <entry key="PLAIN_TEXT" value="146" />
-          <entry key="Scala" value="5135" />
-          <entry key="XML" value="74" />
+          <entry key="Scala" value="5945" />
+          <entry key="XML" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Car" value="2" />
-          <entry key="class" value="6" />
-          <entry key="scala" value="12" />
+          <entry key="class" value="8" />
+          <entry key="conf" value="1" />
+          <entry key="scala" value="15" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
+          <entry key="CLASS" value="8" />
+          <entry key="HOCON" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Scala" value="12" />
+          <entry key="Scala" value="15" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -70,28 +77,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/Parser.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/validate/util/ExpressionUtil.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/impl/StringParser.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+            <state relative-caret-position="105">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="33" />
               <folding>
                 <element signature="e#38#75#0" expanded="true" />
               </folding>
@@ -99,37 +88,67 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/parser/impl/ColumnParserTest.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/validate/impl/ValidateTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            <state relative-caret-position="195">
+              <caret line="13" column="3" lean-forward="true" selection-start-line="7" selection-end-line="13" selection-end-column="3" />
               <folding>
-                <element signature="e#38#86#0" expanded="true" />
+                <element signature="e#41#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/validate/impl/ConfigParseTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+              <folding>
+                <element signature="e#40#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/validate/Validate.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/impl/DslParser.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="68">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#38#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/validate/impl/Operator.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/validate/impl/Validate.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="38" />
               <folding>
                 <element signature="e#42#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/validate/Operator.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-              <folding>
-                <element signature="e#42#76#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,6 +178,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/Test.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -182,12 +210,20 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/impl/StringParser.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/parser/impl/COlumnParserTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/parser/impl/SparkContextSetUp.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/impl/ColumnParser.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/validate/Validate.scala" />
         <option value="$PROJECT_DIR$/src/test/resources/Car" />
         <option value="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/validate/Operator.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/parser/impl/ColumnParserTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/validate/ColumnParserTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/validate/ValidateTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/validate/impl/Operator.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/impl/ConfigParser.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/validate/impl/ValidateTest.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/Test.conf" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/impl/DslParser.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/validate/impl/ConfigParseTest.scala" />
       </list>
     </option>
   </component>
@@ -221,6 +257,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,7 +317,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="dsl" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
               <item name="validate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -290,6 +326,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="dsl" type="462c0819:PsiDirectoryNode" />
+              <item name="validate" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="validator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="dsl" type="462c0819:PsiDirectoryNode" />
+              <item name="validate" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -327,7 +374,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="dsl" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="validate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="validator" type="b2602c69:ProjectViewProjectNode" />
@@ -336,18 +383,18 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="dsl" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="validate" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549140928341" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549171145260" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../akka-quickstart-scala" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -356,8 +403,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.dreambig.dsl" />
       <recent name="com.dreambig.dsl.validate" />
+      <recent name="com.dreambig.dsl.validate.util" />
+      <recent name="com.dreambig.dsl.validate.impl" />
+      <recent name="com.dreambig.dsl" />
       <recent name="com.dreambig.dsl.parser" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -376,7 +425,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ColumnParserTest">
+  <component name="RunManager" selected="ScalaTest.ConfigParseTest">
     <configuration name="ColumnParserTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="validator" />
       <setting name="path" value="com.dreambig.dsl.parser.impl.ColumnParserTest" />
@@ -394,63 +443,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColumnParserTest.A GreaterThan operator should  match value and fields" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ConfigParseTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="validator" />
-      <setting name="path" value="com.dreambig.dsl.parser.impl.ColumnParserTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.dreambig.dsl.parser.impl.ColumnParserTest" />
-      <setting name="testName" value="A GreaterThan operator should  match value and fields" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ColumnParserTest.Parser should  derive express" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="validator" />
-      <setting name="path" value="com.dreambig.dsl.parser.impl.ColumnParserTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.dreambig.dsl.parser.impl.ColumnParserTest" />
-      <setting name="testName" value="Parser should  derive express" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ColumnParserTest.pretty output of DataFrame's check" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="validator" />
-      <setting name="path" value="com.dreambig.dsl.parser.impl.ColumnParserTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.dreambig.dsl.parser.impl.ColumnParserTest" />
-      <setting name="testName" value="pretty output of DataFrame's check" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpressionUtilTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="validator" />
-      <setting name="path" value="com.dreambig.dsl.validate.util.ExpressionUtilTest" />
+      <setting name="path" value="com.dreambig.dsl.validate.impl.ConfigParseTest" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -460,25 +455,78 @@
       <setting name="useUiWithSbt" value="false" />
       <envs />
       <setting name="testKind" value="Class" />
-      <setting name="path" value="com.dreambig.dsl.validate.util.ExpressionUtilTest" />
+      <setting name="path" value="com.dreambig.dsl.validate.impl.ConfigParseTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigParseTest.Test should ok" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="validator" />
+      <setting name="path" value="com.dreambig.dsl.validate.impl.ConfigParseTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.dreambig.dsl.validate.impl.ConfigParseTest" />
+      <setting name="testName" value="Test should ok" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="validator" />
+      <setting name="path" value="com.dreambig.dsl.validate.impl.ValidateTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Class" />
+      <setting name="path" value="com.dreambig.dsl.validate.impl.ValidateTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateTest.A GreaterThan operator should  match value and fields" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="validator" />
+      <setting name="path" value="com.dreambig.dsl.validate.impl.ValidateTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.dreambig.dsl.validate.impl.ValidateTest" />
+      <setting name="testName" value="A GreaterThan operator should  match value and fields" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="ScalaTest.ExpressionUtilTest" />
       <item itemvalue="ScalaTest.ColumnParserTest" />
-      <item itemvalue="ScalaTest.ColumnParserTest.Parser should  derive express" />
-      <item itemvalue="ScalaTest.ColumnParserTest.pretty output of DataFrame's check" />
-      <item itemvalue="ScalaTest.ColumnParserTest.A GreaterThan operator should  match value and fields" />
+      <item itemvalue="ScalaTest.ValidateTest.A GreaterThan operator should  match value and fields" />
+      <item itemvalue="ScalaTest.ValidateTest" />
+      <item itemvalue="ScalaTest.ConfigParseTest.Test should ok" />
+      <item itemvalue="ScalaTest.ConfigParseTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ConfigParseTest" />
+        <item itemvalue="ScalaTest.ConfigParseTest.Test should ok" />
+        <item itemvalue="ScalaTest.ValidateTest" />
+        <item itemvalue="ScalaTest.ValidateTest.A GreaterThan operator should  match value and fields" />
         <item itemvalue="ScalaTest.ColumnParserTest" />
-        <item itemvalue="ScalaTest.ColumnParserTest.A GreaterThan operator should  match value and fields" />
-        <item itemvalue="ScalaTest.ColumnParserTest.pretty output of DataFrame's check" />
-        <item itemvalue="ScalaTest.ColumnParserTest.Parser should  derive express" />
-        <item itemvalue="ScalaTest.ExpressionUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -496,35 +544,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ColumnParserTest - 2019.02.03 at 02h 11m 13s.xml">
-      <configuration name="ColumnParserTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ConfigParseTest - 2019.02.03 at 10h 34m 37s.xml">
+      <configuration name="ConfigParseTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ColumnParserTest - 2019.02.03 at 02h 11m 31s.xml">
-      <configuration name="ColumnParserTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ConfigParseTest - 2019.02.03 at 10h 35m 29s.xml">
+      <configuration name="ConfigParseTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ColumnParserTest_A_GreaterThan_operator_should__match_value_and_fields - 2019.02.03 at 02h 16m 07s.xml">
-      <configuration name="ColumnParserTest.A GreaterThan operator should  match value and fields" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ConfigParseTest - 2019.02.03 at 10h 38m 39s.xml">
+      <configuration name="ConfigParseTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ColumnParserTest - 2019.02.03 at 02h 16m 26s.xml">
-      <configuration name="ColumnParserTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ConfigParseTest - 2019.02.03 at 10h 40m 06s.xml">
+      <configuration name="ConfigParseTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ColumnParserTest - 2019.02.03 at 02h 18m 05s.xml">
-      <configuration name="ColumnParserTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ConfigParseTest - 2019.02.03 at 10h 41m 09s.xml">
+      <configuration name="ConfigParseTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ColumnParserTest - 2019.02.03 at 02h 20m 16s.xml">
-      <configuration name="ColumnParserTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ConfigParseTest - 2019.02.03 at 10h 42m 12s.xml">
+      <configuration name="ConfigParseTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ColumnParserTest - 2019.02.03 at 02h 20m 47s.xml">
-      <configuration name="ColumnParserTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ConfigParseTest - 2019.02.03 at 10h 43m 28s.xml">
+      <configuration name="ConfigParseTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ColumnParserTest - 2019.02.03 at 02h 22m 32s.xml">
-      <configuration name="ColumnParserTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ConfigParseTest - 2019.02.03 at 10h 44m 58s.xml">
+      <configuration name="ConfigParseTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ColumnParserTest - 2019.02.03 at 02h 22m 47s.xml">
-      <configuration name="ColumnParserTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ConfigParseTest - 2019.02.03 at 10h 45m 22s.xml">
+      <configuration name="ConfigParseTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ColumnParserTest - 2019.02.03 at 02h 23m 35s.xml">
-      <configuration name="ColumnParserTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ConfigParseTest - 2019.02.03 at 10h 47m 28s.xml">
+      <configuration name="ConfigParseTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -537,10 +585,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.41115537" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4183267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -549,12 +597,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.636646" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41304347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3726708" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972136" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7670807" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.310559" />
@@ -599,18 +647,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/parser/impl/ColumnParserTest.scala</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
@@ -646,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-520">
-          <caret line="168" column="42" selection-start-line="168" selection-start-column="38" selection-end-line="168" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1.jar!/org/apache/spark/sql/functions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -674,60 +703,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/impl/ColumnParser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="57" column="2" lean-forward="true" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/impl/StringParser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-          <folding>
-            <element signature="e#38#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/Parser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/validate/util/ExpressionUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/parser/impl/StringParserTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="44" />
-          <folding>
-            <element signature="e#39#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/validate/util/ExpressionUtilTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <element signature="e#40#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/impl/ColumnParser.scala" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1.jar!/org/apache/spark/sql/Dataset.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -742,32 +718,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/validate/Operator.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/Parser.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/validate/util/ExpressionUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/config/1.3.2/config-1.3.2.jar!/com/typesafe/config/ConfigFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
           <folding>
-            <element signature="e#42#76#0" expanded="true" />
+            <element signature="e#7076#7077#0" expanded="true" />
+            <element signature="e#7145#7146#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/validate/Validate.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/validate/util/ExpressionUtilTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="e#40#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/impl/StringParser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#38#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar!/scala/reflect/api/Quasiquotes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Test.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/parser/impl/StringParserTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="e#39#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/parser/impl/DslParser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#38#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/validate/impl/Operator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dreambig/dsl/validate/impl/Validate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="38" />
           <folding>
             <element signature="e#42#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/parser/impl/ColumnParserTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/validate/impl/ValidateTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="195">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="7" selection-end-line="13" selection-end-column="3" />
           <folding>
-            <element signature="e#38#86#0" expanded="true" />
+            <element signature="e#41#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/dreambig/dsl/validate/impl/ConfigParseTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -81,6 +81,14 @@
             <artifactId>scalactic_${scala.compat.version}</artifactId>
             <version>3.0.5</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.scala-lang/scala-compiler -->
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-compiler</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.scalatest</groupId>
             <artifactId>scalatest_${scala.compat.version}</artifactId>
@@ -94,6 +102,7 @@
             <version>${spark.version}_0.10.0</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
     <build>
         <sourceDirectory>src/main/scala</sourceDirectory>

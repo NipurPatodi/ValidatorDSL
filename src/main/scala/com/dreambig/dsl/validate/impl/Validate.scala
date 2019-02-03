@@ -1,4 +1,4 @@
-package com.dreambig.dsl.parser.validate
+package com.dreambig.dsl.validate.impl
 
 import org.apache.spark.sql._
 import org.apache.spark.sql.functions.col
