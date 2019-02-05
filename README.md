@@ -1,4 +1,3 @@
 # ValidatorDSL
 
-Simple DSL to do Filter on Spark. 
-Next Step would be for cleansing Dataframe.
+Simple DSL to do Filter on Spark dataframe by extracting rules from config and using scala Quasiquotes.
