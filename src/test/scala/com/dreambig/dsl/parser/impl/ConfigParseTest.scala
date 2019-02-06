@@ -36,4 +36,12 @@ class ConfigParseTest extends FlatSpec with BeforeAndAfter with SharedSparkConte
     assert(res != null)
     assertResult(2)(inputDf.filter(res).count())
   }
+
+  "Rule3" should "ok" in{
+    val condition =config.getString("config.validation.rule3").trim
+    val parser = new DslParser
+    val res =  parser.parse(condition).get
+    assert(res != null)
+    assertResult(1)(inputDf.filter(res).count())
+  }
 }
