@@ -1,6 +1,5 @@
 package com.dreambig.dsl.validate.util
 
-import com.dreambig.dsl.parser.impl.StringParser
 import org.scalatest.FlatSpec
 
 import scala.util.Success

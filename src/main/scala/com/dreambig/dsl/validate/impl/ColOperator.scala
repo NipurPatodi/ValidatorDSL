@@ -1,5 +1,9 @@
 package com.dreambig.dsl.validate.impl
 
-class ColOperator {
+import org.apache.spark.sql.Column
 
+
+class ColOperator(column: Column){
+
+  def greaterThan (value:String):Column = column > value
 }

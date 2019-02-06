@@ -1,5 +1,5 @@
-id;brand;name;cc;cost
-0;makeInIndia;thela;0;10000
-1;maruti;celerio;900;400000
-2;maruti;alto;1000;500000
-4;Nexa;egnis;1100;600000
+id;brand;name;cc;cost;zip
+0;makeInIndia;thela;0;10000;12345
+1;maruti;celerio;900;400000;54321
+2;maruti;alto;1000;500000;12345-6789
+4;Nexa;egnis;1100;600000;3
